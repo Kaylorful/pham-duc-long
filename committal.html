@@ -1,0 +1,13 @@
+---
+---
+{% assign MAIN = site.data.main %}
+<main>
+  <div class='border'>
+    <small class='heading accent'>lễ tang &middot; committal service</small>
+    <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
+    <small class='accent-fade' itemprop='startDate' content='2025-02-07T12:00'>{{ MAIN.committal.dates }}</small>
+
+    {% include menu-outline.html info=MAIN.committal_menu %}
+    {% include footer.html href='/' %}
+  </div>
+</main>

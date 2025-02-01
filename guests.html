@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<section id='guests' class='page center-box-container'>
+  {% include logo.html %}
+  <h1>guests</h1>
+
+  <p id='stats' hidden>
+    accepted: <code id='_accepted'></code><br/>
+    remained: <code id='_remained'></code><br/>
+    est total: <code id='_total'></code><br/>
+    children: <code id='_children'></code><br/>
+  </p>
+
+  <table>
+    <thead>
+      <td><span class='material-symbols-outlined'>check</span></td>
+      <th>Name</th><td>Phone</td>
+    </thead>
+    <tbody id='list'></tbody>
+  </table>
+
+  <div class='spacer-2'>
+    <a class='line-drawn' href='/rsvp-add'>ADD</a>
+    <button class='line-drawn' onclick='download()'>Download</button>
+  </div>
+</section>
+
+<script src='/assets/js/guests.js'></script>
+
+{% include auth.html %}

@@ -1,0 +1,82 @@
+title: "Mục sư Phạm Đức Long"
+description: >
+  Mục sư Phạm Đức Long • 1939 - 2025 •
+  Hỡi Đức Giê-hô-va, tôi sẽ nằm và ngủ bình-an;
+  Vì chỉ một mình Ngài làm cho tôi được ở yên-ổn
+  — Thi-thiên 4:8
+
+info:
+  date_format: "%b %d, %y"
+  short_name: "MS Long"
+  color:
+    theme: "#add8e6"
+    bg: "#1c2224"
+  url: "https://phamduclong.com"
+  categories:
+    - social
+    - photo
+    - travel
+    - news
+  logo:
+    image: "logo.svg"
+    size: 200
+    alt_image: "logo-square.svg"
+    alt_size: 70
+    sizes: [ 48, 96, 144, 192, 300, 512 ]
+  screenshots:
+    - src: /assets/banner.png
+      sizes: 1024x577
+      type: image/png
+      form: wide
+    - src: /assets/card.png
+      sizes: 577x1024
+      type: image/png
+      form: narrow
+  meta:
+    apple_icon: "logo-square-300.png"
+    og_image: "banner.png"
+    favicon: "favicon.ico"
+    keywords: >
+      wedding,
+      church,
+      vietnam,
+      california,
+      saigon
+  font_families:
+    - Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200
+    - Cormorant+Upright
+    - Festive
+    - Montez
+    - Shalimar
+    - Xanh+Mono
+    - Encode+Sans+Condensed
+
+sass:
+  style: compact
+
+collections_dir: content
+collections:
+  modules:
+    output: true
+
+defaults:
+  - scope:
+      path: "*.html"
+    values:
+      layout: "default"
+  - scope:
+      type: "modules"
+    values:
+      layout: "module"
+
+include:
+  - index.html
+  - 404.html
+  - pwabuilder-sw.js
+  - content
+
+exclude:
+  - README.md
+  - LICENSE
+  - runme.sh
+

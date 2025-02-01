@@ -1,0 +1,17 @@
+---
+menu: memorial_menu
+section: memorial
+---
+{% assign MAIN = site.data.main %}
+{% assign INFO = site.data.main[page.section] %}
+{% assign MENU = MAIN[page.menu] %}
+<main>
+  <div class='border'>
+    <small class='heading accent'>{{ INFO.vn-name }} &middot; {{ INFO.name }}</small>
+    <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
+    <small class='accent-fade' itemprop='startDate' content='{{ INFO.start-date }}'>{{ INFO.dates }}</small>
+
+    {% include menu-outline.html info=MENU %}
+    {% include footer.html href='/' %}
+  </div>
+</main>

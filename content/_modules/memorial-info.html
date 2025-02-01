@@ -1,0 +1,27 @@
+---
+---
+
+{% assign INFO = site.data.main.memorial %}
+
+<h2 class='heading accent'>{{ INFO.vn-name }}</h2>
+<h1>{{ INFO.name }}</h1>
+
+{% if INFO.logo -%}
+<img src='{{ INFO.logo }}' width=70 title='{{ INFO.venue }}' alt='{{ INFO.venue }}' />
+{% endif -%}
+
+<h3 class='heading accent'>time</h3>
+<p class='squeeze-1'>{{ INFO.time }}</p>
+
+<h3 class='heading accent'>location</h3>
+<h2 class='squeeze-1'>{{ INFO.venue }}</h2>
+<p class='squeeze-1'>
+  <a class='sans' target='_blank' href='{{ INFO.href }}'>
+    {{ INFO.address }}
+  </a>
+</p>
+<p>
+  <img width='100' src='{{ INFO.qrcode }}' title='{{ INFO.venue }}' alt='{{ INFO.venue }}' />
+</p>
+
+{% include button.html href='/memorial' class='spacer-4' back=1 label='Back to Memorial' %}

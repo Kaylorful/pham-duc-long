@@ -1,0 +1,19 @@
+---
+set: committal
+upper: Committal Service
+---
+
+{% assign COMMIT = site.data.main.committal %}
+{% assign INFO = site.data[page.set] %}
+
+<h2 class='heading accent'>{{ COMMIT.vn-name }}</h2>
+<h1>{{ COMMIT.name }}</h1>
+
+{% include program-outline.html info=INFO %}
+
+<div class='spacer-4'>
+  <a href='/committal' class='line-drawn'>
+    <span class='material-symbols-outlined'>arrow_back_ios_new</span>
+    Back to {{ page.upper }}
+  </a>
+</div>

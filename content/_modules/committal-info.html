@@ -1,0 +1,36 @@
+---
+set: committal
+upper: Committal Service
+---
+
+{% assign COMMIT = site.data.main.committal %}
+{% assign INFO = site.data[page.set] %}
+
+<h2 class='heading accent'>{{ COMMIT.vn-name }}</h2>
+<h1>{{ COMMIT.name }}</h1>
+
+{% if COMMIT.logo -%}
+<img src='{{ COMMIT.logo }}' width=70 title='{{ COMMIT.venue }}' alt='{{ COMMIT.venue }}' />
+{% endif -%}
+
+<h3 class='heading accent'>time</h3>
+<p class='squeeze-1'>{{ COMMIT.time }}</p>
+
+<h3 class='heading accent'>location</h3>
+<h2 class='squeeze-1'>{{ COMMIT.venue }}</h2>
+<h3 class='squeeze-1'>{{ COMMIT.site }}</h3>
+<p class='squeeze-1'>
+  <a class='sans' target='_blank' href='{{ COMMIT.href }}'>
+    {{ COMMIT.address }}
+  </a>
+</p>
+<p>
+  <img width='100' src='{{ COMMIT.qrcode }}' title='{{ COMMIT.venue }}' alt='{{ COMMIT.venue }}' />
+</p>
+
+<div class='spacer-4'>
+  <a href='/committal' class='line-drawn'>
+    <span class='material-symbols-outlined'>arrow_back_ios_new</span>
+    Back to {{ page.upper }}
+  </a>
+</div>

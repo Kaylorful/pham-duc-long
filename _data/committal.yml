@@ -1,0 +1,140 @@
+- label: casket procession
+  items:
+  - label: Portrait bearer
+    pretext: Người đi đầu với di ảnh
+    name: Phạm Đức Khôi Nguyên
+  - label: Pallbearers
+    pretext: Người đỡ quan tài
+    text:
+    - Phạm Ngọc Triều Thiên (trưởng nữ)<br/>
+      Lê Ngọc Chính (con rể)
+    - Phạm Ngọc Diễn Châu (thứ nữ)<br/>
+      Phạm Ngọc Hưng (con rể)
+    - Phạm Ngọc Hân (thứ nữ)<br/>
+      Alvin Tai (con rể)
+
+- label: scripture reading
+  items:
+  - label: Psalm 23
+    pretext: Thi-thiên 23
+    name: Debbie Lê Thiên-Thanh
+    header: Tiếng Việt
+    text:
+    - "Đức Giê-hô-va là Đấng chăn-giữ tôi:<br/>
+      tôi sẽ chẳng thiếu-thốn gì."
+    - "Ngài khiến tôi an-nghỉ nơi đồng-cỏ xanh-tươi,<br/>
+      Dẫn tôi đến mé nước bình-tịnh."
+    - "Ngài bổ lại linh-hồn tôi,<br/>
+      Dẫn tôi vào các lối công-bình, vì cớ danh Ngài."
+    - "Dầu khi tôi đi trong trũng bóng chết,<br/>
+      Tôi sẽ chẳng sợ tai-họa nào; vì Chúa ở cùng tôi:<br/>
+      Cây trượng và cây gậy của Chúa an-ủi tôi."
+    - "Chúa dọn bàn cho tôi Trước mặt kẻ thù-nghịch tôi;<br/>
+      Chúa xức dầu cho đầu tôi, Chén tôi đầy tràn."
+    - "Quả thật, trọn đời tôi Phước-hạnh và sự thương-xót sẽ theo tôi;<br/>
+      Tôi sẽ ở trong nhà Đức Giê-hô-va Cho đến lâu dài."
+  - name: Jadon Phạm Vương-Quyền
+    header: English
+    text:
+    - "The LORD is my shepherd;<br/>
+      I shall not want."
+    - "He maketh me to lie down in green pastures:<br/>
+      he leadeth me beside the still waters."
+    - "He restoreth my soul:<br/>
+      he leadeth me in the paths of righteousness for his name's sake."
+    - "Yea, though I walk through the valley of the shadow of death,<br/>
+      I will fear no evil: for thou art with me;<br/>
+      thy rod and thy staff they comfort me."
+    - "Thou preparest a table before me in the presence of mine enemies:<br/>
+      thou anointest my head with oil; my cup runneth over."
+    - "Surely goodness and mercy shall follow me all the days of my life:<br/>
+      and I will dwell in the house of the LORD for ever."
+
+- label: homily
+  items:
+  - label: My Shepherd
+    pretext: Đấng Chăn giữ tôi
+    name: Mục-sư Phạm Đức Khôi Nguyên
+
+- label: eulogy
+  items:
+  - label: Final Words
+    pretext: Những lời cuối
+    name: Bà quả phụ Lê Thị Ngọc Mai
+
+- label: prayers & committal
+  items:
+  - label: Prayer of Commendation
+    pretext: Lời cầu nguyện phó thác linh hồn
+    name: Mục-sư Nguyên
+    header: English
+    text:
+    - O Heavenly Father, whose presence fills all creation, you are the wellspring of life and the promise of resurrection.
+    - In sorrow and in hope, we come before you. We commend to your loving care the body, spirit, and soul of Pastor Long—our beloved father, grandfather, uncle, friend, and confidant—who has journeyed from this earthly realm.
+    - Lord Jesus, you have said, "In my Father's house are many rooms," and you have gone to prepare a place for us, that where you are, we may be also.
+    - We give thanks for the gift of eternal life through you, our Lord.
+    - Grant Pastor Long rest from his earthly toils and receive him into your glorious kingdom.
+    - Be with us in our grief, and sustain us until we are reunited in your eternal presence.
+    - Through Jesus Christ, our Lord. Amen.
+
+  - label: The Lord's Prayer
+    pretext: Bài cầu nguyện chung
+    header: English
+    text:
+    - Our Father who art in heaven,<br/>
+      hallowed be thy name.<br/>
+      Thy kingdom come.<br/>
+      Thy will be done<br/>
+      on earth as it is in heaven.
+    - Give us this day our daily bread,<br/>
+      and forgive us our trespasses,<br/>
+      as we forgive those who trespass against us,<br/>
+      and lead us not into temptation,<br/>
+      but deliver us from evil.<br/>
+    - For thine is the kingdom<br/>
+      and the power,<br/>
+      and the glory,<br/>
+      forever and ever.
+    - Amen.
+  - header: Tiếng Việt
+    text:
+    - Lạy Cha chúng con ở trên trời;<br/>
+      Danh Cha được tôn thánh;<br/>
+      Nước Cha được đến;<br/>
+      Ý Cha được nên, ở đất như trời!
+    - Xin cho chúng con hôm nay đồ ăn đủ ngày;<br/>
+      Xin tha tội lỗi cho chúng con,<br/>
+      như chúng con cũng tha kẻ phạm tội nghịch cùng chúng con;<br/>
+      Xin chớ để chúng con bị cám dỗ,<br/>
+      mà cứu chúng tôi khỏi điều ác!
+    - Vì nước, quyền,<br/>
+      vinh hiển đều thuộc về Cha đời đời vô cùng.
+    - A-men.
+
+  - label: Committal
+    name: Mục-sư Nguyên
+    pretext: Phó thác linh hồn
+    header: English
+    text:
+    - 'We commit the body of our beloved pastor Long to the earth, remembering that "we will all be changed—in a flash, in the twinkling of an eye, at the last trumpet."'
+    - 'We believe that as Christ was raised from the dead, so too shall we be raised to new life.'
+    - '"For if we live, we live to the Lord; and if we die, we die to the Lord. So whether we live or die, we belong to the Lord."'
+    - Amen.
+
+- label: farewell
+  items:
+  - label: Benediction
+    pretext: Chúc phước
+    name: Mục-sư Nguyên
+
+  - label: Amazing Grace
+    pretext: John Newton
+    name: Trưởng lão Lê Ngọc Chính
+
+  - label: Flower Tribute
+    pretext: Đặt hoa trên quan tài
+    name: Trưởng lão Phạm Đức Nam Minh
+
+  - label: A Sweet Farewell
+    pretext: Lời tạm biệt ngọt ngào
+    name: Phạm Ngọc Hân

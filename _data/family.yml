@@ -1,0 +1,65 @@
+immediate:
+  parents:
+    name: Mục-sơ Phạm Đức Long &times; Lê Thị Ngọc Mai
+    children:
+      - name: Phạm Ngọc Triều Thiên &times; Lê Ngọc Chính
+        children:
+          - name: Naomi Lê Thiên Kim
+          - name: Deborah Lê Thiên Thanh
+          - name: Daniel Lê Chính Danh
+      - name: Phạm Ngọc Diễn Châu &times; Phạm Ngọc Hưng
+        children:
+          - name: Nathan Phạm Vinh Quang
+          - name: Seraphine Phạm Thiên Thi
+          - name: Jadon Phạm Vương Quyền
+      - name: Paul Phạm Đức Khôi-Nguyên &times; Kaylee Hoàng Tú-Linh
+        children:
+          - name: Josiah Phạm Đức Đạo
+      - name: Phạm Đức Nam Minh &times; Lê Thị Kim Ngân
+        children:
+          - name: Nora Phạm Minh Nguyệt
+          - name: Ayden Phạm Minh Nhật
+      - name: Christine Phạm Ngọc Hân &times; Alvin Tai
+
+extended:
+  parents:
+    name: Phạm Đức Tuyền &times; Lê Thị Bá
+    children:
+      - name: Mục-sư Phạm Đức Long &times; Lê Thị Ngọc Mai
+        children:
+          - name: Anatasia Phạm Ngọc Triều Thiên (con gái)
+            children:
+              - name: chồng và các con
+          - name: Antares Phạm Ngọc Diễn Châu (con gái)
+            children:
+              - name: chồng và các con
+          - name: Miranda Lê Hồng Nguyên Thảo (con gái nuôi)
+          - name: Mục-sư Paul Phạm Đức Khôi Nguyên (con trai)
+            children:
+              - name: vợ và con
+          - name: David Phạm Đức Nam Minh (con trai)
+            children:
+              - name: vợ và các con
+          - name: Christine Phạm Ngọc Hân (con gái)
+            children:
+              - name: và chồng
+
+      - name: Phạm Đức Hải (anh trai)
+        children:
+          - name: vợ và các con, các cháu (Vietnam)
+      - name: Phạm Đức Hiền (em trai)
+        children:
+          - name: vợ và các con
+      - name: Phạm Bích Diệp (em gái)
+        children:
+          - name: chồng (quá cố), con và cháu
+      - name: Phạm Bách Hợp (em gái)
+        children:
+          - name: chồng, con và các cháu
+
+      - name: Lê Tiến Uy (cháu)
+        children:
+          - name: vợ, các con và cháu
+      - name: Diane Vũ Lan Anh (cháu)
+      - name: Alex Vũ Tam Khôi (cháu)
+

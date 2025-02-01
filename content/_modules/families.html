@@ -1,0 +1,23 @@
+---
+tree: vertical
+---
+
+<div style='margin-top: 1em'></div>
+<h1>Immediate Family</h1>
+<div class='tree-vertical'>
+  {% assign parents = site.data.family.immediate.parents %}
+  <ul>
+    {% include tree/vblock.html name=parents.name children=parents.children %}
+  </ul>
+</div>
+
+<div style='margin-top: 6em'></div>
+<h1>Extended Family</h1>
+<div class='tree-vertical'>
+  {% assign parents = site.data.family.extended.parents %}
+  <ul>
+    {% include tree/vblock.html name=parents.name children=parents.children %}
+  </ul>
+</div>
+
+{% include button.html href='/' class='spacer-4' back=1 label='Back to Home' %}
