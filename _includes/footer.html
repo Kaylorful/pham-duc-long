@@ -2,12 +2,12 @@
 
   <footer>
     {% unless include.href -%}
-    <small class='mono'>3/14/1939&nbsp;</small>
+    <small class='mono'>1939&nbsp;</small>
     {% endunless -%}
     <a href='{{ include.href | default: '/admin' }}'>
       <img src='{{ MAIN.symbol }}' width=40 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' />
     </a>
     {% unless include.href -%}
-    <small class='mono'>&nbsp;1/28/2025</small>
+    <small class='mono'>&nbsp;2025</small>
     {% endunless -%}
   </footer>
