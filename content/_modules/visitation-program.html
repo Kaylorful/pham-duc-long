@@ -1,14 +1,14 @@
 ---
-set: committal
-upper: Committal Service
+set: visitation
 ---
 
-{% assign COMMIT = site.data.main.committal %}
+{% assign COMMIT = site.data.main[page.set] %}
 {% assign INFO = site.data[page.set] %}
+{% assign PATH = '/visitation' %}
 
 <h2 class='heading accent'>{{ COMMIT.vn-name }}</h2>
 <h1>{{ COMMIT.name }}</h1>
 
 {% include program-outline.html info=INFO %}
 
-{% include button.html href='/committal' class='spacer-4' back=1 label='Back' %}
+{% include button.html href=PATH class='spacer-4' back=1 label='Back' %}

@@ -1,48 +1,53 @@
 hero: "phạm đức long"
 logo: /assets/logo-name.svg
 symbol: /assets/logo.svg
-date: "1939 - 2025"
 date_year: "February 7th, 2025"
-time: "12 p.m."
-arrival: "10:00 a.m."
 quote:
   text: |
     Hỡi Đức Giê-hô-va, tôi sẽ nằm và ngủ bình-an;<br class='soft'/>
     Vì chỉ một mình Ngài làm cho tôi được ở yên-ổn.
   ref: "Thi-thiên 4:8"
 
-wake:
-  dates: "February 6th & 7th, 2025"
-  thursday:
-    vn-name: "lễ thức canh thứ năm"
-    name: "thursday wake service"
-    venue: "Darling Fischer"
-    site: "Garden Chapel"
-    address: |
-      471 E Santa Clara St,<br/>
-      San Jose, CA 95112
-    href: https://maps.app.goo.gl/zKbNaPpERityBzRL9
-    time: Thursday February 6th, 2025<br/>3:30 - 8:00 p.m.
-    qrcode: /assets/qr/df-garden-chapel.svg
-  friday:
-    vn-name: "lễ thức canh thứ sáu"
-    name: "friday wake service"
-    venue: "Darling Fischer"
-    site: "Garden Chapel"
-    address: |
-      471 E Santa Clara St,<br/>
-      San Jose, CA 95112
-    href: https://maps.app.goo.gl/zKbNaPpERityBzRL9
-    time: Friday February 7th, 2025<br/>8:00 - 11:00 a.m.
-    qrcode: /assets/qr/df-garden-chapel.svg
+visitation:
+  dates: "February 6th, 2025 &middot; 3:30 p.m."
+  start-date: "2025-02-06T03:30"
+  vn-name: "thăm viếng"
+  name: "visitation service"
+  venue: "Darling Fischer"
+  site: "Garden Chapel"
+  address: |
+    471 E Santa Clara St,<br/>
+    San Jose, CA 95112
+  href: https://maps.app.goo.gl/zKbNaPpERityBzRL9
+  time: Thursday February 6th, 2025<br/>3:30 - 8:00 p.m.
+  qrcode: /assets/qr/df-garden-chapel.svg
+
+viewing:
+  dates: "February 7th, 2025 &middot; 8 a.m."
+  start-date: "2025-02-07T08:00"
+  vn-name: "thăm lần cuối"
+  name: "final viewing"
+  venue: "Darling Fischer"
+  site: "Garden Chapel"
+  address: |
+    471 E Santa Clara St,<br/>
+    San Jose, CA 95112
+  href: https://maps.app.goo.gl/zKbNaPpERityBzRL9
+  time: |
+    Friday February 7th, 2025<br/>
+    8:00 - 11:00 a.m.
+  qrcode: /assets/qr/df-garden-chapel.svg
 
 committal:
-  vn-name: "lễ tang"
-  name: "committal service"
-  dates: "February 7th, 2025"
+  vn-name: "lễ hạ huyệt"
+  name: "burial service"
+  dates: "February 7th, 2025 &middot; noon"
+  start-date: "2025-02-07T12:00"
   venue: Gate of Heaven Catholic Cemetery
   site: Garden of Ascension
-  time: Friday February 7th, 2025<br/>12:00 - 1:00 p.m.
+  time: |
+    Friday February 7th, 2025<br/>
+    12:00 - 1:00 p.m.
   address: |
     22555 Cristo Rey Dr,<br/>
     Los Altos, CA 94024
@@ -50,12 +55,14 @@ committal:
   qrcode: /assets/qr/goh-garden-of-ascension.svg
 
 memorial:
-  dates: "February 8th, 2025"
+  dates: "February 8th, 2025 &middot; 11:30 a.m."
   start-date: "2025-02-08T11:30"
   vn-name: "lễ tưởng nhớ"
   name: "memorial service"
   venue: Milpitas Christian Church
-  time: Saturday February 8th, 2025<br/>11:30 a.m - 3:00 p.m.
+  time: |
+    Saturday February 8th, 2025<br/>
+    11:30 a.m - 3:00 p.m.
   address: |
     1715 E. Calaveras Blvd.,<br/>
     Milpitas, CA 95035
@@ -64,9 +71,11 @@ memorial:
   qrcode: /assets/qr/mcc.svg
 
 main_menu:
-  - label: "lễ thức canh &middot; wake services"
-    href: /wake
-  - label: "lễ tang &middot; committal service"
+  - label: "thăm viếng &middot; visitation service"
+    href: /visitation
+  - label: "thăm lần cuối &middot; final viewing"
+    href: /viewing
+  - label: "lễ hạ huyệt &middot; burial service"
     href: /committal
     emphasized: true
   - label: "lễ tưởng nhớ &middot; memorial service"
@@ -80,6 +89,17 @@ wake_menu:
     href: /modules/wake-6th
   - label: "thứ sáu &middot; friday"
     href: /modules/wake-7th
+
+visitation_menu:
+  - label: "thông tin &middot; information"
+    href: /modules/visitation-info
+  - label: "chương trình &middot; program"
+    href: /modules/visitation-program
+
+viewing_menu:
+  - label: "thông tin &middot; information"
+    href: /modules/viewing-info
+  - label: "chương trình &middot; program"
 
 committal_menu:
   - label: "thông tin &middot; information"

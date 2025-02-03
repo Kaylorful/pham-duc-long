@@ -1,32 +1,35 @@
 ---
 ---
 
-{% if page.name == 'wake-6th.html' -%}
-  {% assign WAKE = site.data.main.wake.thursday %}
+{% if page.name == 'visitation-info.html' -%}
+  {% assign PATH = '/visitation' %}
+  {% assign INFO = site.data.main.visitation %}
 {% else -%}
-  {% assign WAKE = site.data.main.wake.friday %}
+  {% assign PATH = '/viewing' %}
+  {% assign INFO = site.data.main.viewing %}
 {% endif -%}
 
-<h2 class='heading accent'>{{ WAKE.vn-name }}</h2>
-<h1>{{ WAKE.name }}</h1>
 
-{% if WAKE.logo -%}
-<img src='{{ WAKE.logo }}' width=70 title='{{ WAKE.venue }}' alt='{{ WAKE.venue }}' />
+<h2 class='heading accent'>{{ INFO.vn-name }}</h2>
+<h1>{{ INFO.name }}</h1>
+
+{% if INFO.logo -%}
+<img src='{{ INFO.logo }}' width=70 title='{{ INFO.venue }}' alt='{{ INFO.venue }}' />
 {% endif -%}
 
 <h3 class='heading accent'>time</h3>
-<p class='squeeze-1'>{{ WAKE.time }}</p>
+<p class='squeeze-1'>{{ INFO.time }}</p>
 
 <h3 class='heading accent'>location</h3>
-<h2 class='squeeze-1'>{{ WAKE.venue }}</h2>
-<h3 class='squeeze-1'>{{ WAKE.site }}</h3>
+<h2 class='squeeze-1'>{{ INFO.venue }}</h2>
+<h3 class='squeeze-1'>{{ INFO.site }}</h3>
 <p class='squeeze-1'>
-  <a class='sans' target='_blank' href='{{ WAKE.href }}'>
-    {{ WAKE.address }}
+  <a class='sans' target='_blank' href='{{ INFO.href }}'>
+    {{ INFO.address }}
   </a>
 </p>
 <p>
-  <img width='100' src='{{ WAKE.qrcode }}' title='{{ WAKE.venue }}' alt='{{ WAKE.venue }}' />
+  <img width='100' src='{{ INFO.qrcode }}' title='{{ INFO.venue }}' alt='{{ INFO.venue }}' />
 </p>
 
 <h3 class='heading accent'>khăn tang</h3>
@@ -59,22 +62,17 @@
 <h3 class='heading accent'>thời gian lái xe đến tang lễ</h3>
 <p class='squeeze-1'>
   Xin vui lòng dành 20 đến 30 phút cho việc <a target='_blank' href='https://maps.app.goo.gl/bRex6XCKXSDz3uft9'>di chuyển</a>
-  giữa <a target='_blank' href='{{ WAKE.href }}'>{{ WAKE.venue }}</a>
+  giữa <a target='_blank' href='{{ INFO.href }}'>{{ INFO.venue }}</a>
   và <a target='_blank' href='{{ COMMITTAL.href }}'>{{ COMMITTAL.venue }}</a>.
   Sự hiện diện đúng giờ của quý vị rất được trân trọng.
 </p>
 <h3 class='heading accent'>travel time to committal service</h3>
 <p class='squeeze-1'>
   Kindly allow 20 to 30 minutes for <a target='_blank' href='https://maps.app.goo.gl/bRex6XCKXSDz3uft9'>travel</a>
-  between <a target='_blank' href='{{ WAKE.href }}'>{{ WAKE.venue }}</a>
+  between <a target='_blank' href='{{ INFO.href }}'>{{ INFO.venue }}</a>
   and <a target='_blank' href='{{ COMMITTAL.href }}'>{{ COMMITTAL.venue }}</a>.
   Your timely arrival is appreciated.
 </p>
 {% endif -%}
 
-<div class='spacer-4'>
-  <a href='/wake' class='line-drawn'>
-    <span class='material-symbols-outlined'>arrow_back_ios_new</span>
-    Back to Wake Services
-  </a>
-</div>
+{% include button.html href=PATH class='spacer-4' back=1 label='Back' %}

@@ -1,0 +1,68 @@
+- label: 3:30 p.m.
+  items:
+  - label: Service Begins
+    pretext: Chương trình bắt đầu
+
+- label: 4:00 p.m.
+  items:
+  - label: Visitation
+    pretext: Thăm viếng
+
+- label: 5:00 p.m.
+  items:
+  - label: Family Eulogies
+    pretext: Lời tưởng nhớ của gia đình
+
+- label: 5:30 p.m.
+  items:
+  - label: Psalm 23
+    pretext: Thi-thiên 23
+    name: Debbie Lê Thiên-Thanh
+    header: Tiếng Việt
+    text:
+    - "Đức Giê-hô-va là Đấng chăn-giữ tôi:<br/>
+      tôi sẽ chẳng thiếu-thốn gì."
+    - "Ngài khiến tôi an-nghỉ nơi đồng-cỏ xanh-tươi,<br/>
+      Dẫn tôi đến mé nước bình-tịnh."
+    - "Ngài bổ lại linh-hồn tôi,<br/>
+      Dẫn tôi vào các lối công-bình, vì cớ danh Ngài."
+    - "Dầu khi tôi đi trong trũng bóng chết,<br/>
+      Tôi sẽ chẳng sợ tai-họa nào; vì Chúa ở cùng tôi:<br/>
+      Cây trượng và cây gậy của Chúa an-ủi tôi."
+    - "Chúa dọn bàn cho tôi Trước mặt kẻ thù-nghịch tôi;<br/>
+      Chúa xức dầu cho đầu tôi, Chén tôi đầy tràn."
+    - "Quả thật, trọn đời tôi Phước-hạnh và sự thương-xót sẽ theo tôi;<br/>
+      Tôi sẽ ở trong nhà Đức Giê-hô-va Cho đến lâu dài."
+  - name: Jadon Phạm Vương-Quyền
+    header: English
+    text:
+    - "The LORD is my shepherd;<br/>
+      I shall not want."
+    - "He maketh me to lie down in green pastures:<br/>
+      he leadeth me beside the still waters."
+    - "He restoreth my soul:<br/>
+      he leadeth me in the paths of righteousness for his name's sake."
+    - "Yea, though I walk through the valley of the shadow of death,<br/>
+      I will fear no evil: for thou art with me;<br/>
+      thy rod and thy staff they comfort me."
+    - "Thou preparest a table before me in the presence of mine enemies:<br/>
+      thou anointest my head with oil; my cup runneth over."
+    - "Surely goodness and mercy shall follow me all the days of my life:<br/>
+      and I will dwell in the house of the LORD for ever."
+- label: homily
+  items:
+  - label: My Shepherd
+    pretext: Đấng Chăn giữ tôi
+    name: Mục-sư Phạm Đức Khôi Nguyên
+
+- label: 6:00 p.m.
+  items:
+  - label: Special Message
+    pretext: Mục-sư Phạm Đức Long
+  - label: Sharing Memories
+    pretext: Lời tưởng nhớ của quý thân hữu
+
+- label: 8:00 p.m.
+  items:
+  - label: Closing Remarks & Prayer
+    pretext: Cầu nguyện kết thúc

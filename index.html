@@ -3,9 +3,8 @@
 {% assign MAIN = site.data.main %}
 <main>
   <div class='border' itemscope itemtype='https://schema.org/Event'>
-    <h1 itemprop='name'>mục-sư</h1>
+    <div class='heading accent' itemprop='name'>mục-sư</div>
     <img src='{{ MAIN.logo }}' width=400 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
-    <small class='mono' itemprop='startDate' content='2025-02-06T12:00'>{{ MAIN.date }}</small>
 
     {% include menu-outline.html info=MAIN.main_menu %}
     {% include footer.html %}
