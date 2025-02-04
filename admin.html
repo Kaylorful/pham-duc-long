@@ -6,6 +6,9 @@
     <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
 
     {% include menu-outline.html info=MAIN.admin_menu %}
-    {% include footer.html href='/' %}
+
+    <a href='/'>
+      <img style='background-color: white' src='{{ MAIN.qrcode }}' width=100 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' />
+    </a>
   </div>
 </main>
