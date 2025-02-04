@@ -15,6 +15,138 @@
 
 - label: 5:30 p.m.
   items:
+  - label: Worship
+    pretext: Thờ phượng
+    name: Naomi & Deborah Lê
+
+  - label: As We Gather / Your Steadfast Love
+    pretext: Chúng con quây quần / Tình yêu bền vững
+    header: Lyrics / Lời hát
+    text:
+    - As we gather, may Your Spirit work within us<br/>
+      As we gather, may we glorify Your name<br/>
+      Knowing well that as our hearts begin to worship<br/>
+      We'll be blessed because we came<br/>
+      We'll be blessed because we came
+    - Trong Danh Chúa chúng con quây quần<br/>
+      cùng ngợi ca chúc tôn.<br/>
+      Dâng lên Chúa tất cả tấm lòng ngập tràn yêu thương.<br/>
+      Chúa hỡi, xin Ngài ngự nơi đây<br/>
+      chúng con đang mong chờ.<br/>
+      Xuống phước, ban ơn, thêm niềm vui tươi mới.<br/>
+      Lúc chúng con đến tôn thờ Ngài.
+    - The steadfast love of the Lord never ceases<br/>
+      His mercies never come to an end<br/>
+      They are new every morning, new every morning<br/>
+      Great is Thy faithfulness, O Lord<br/>
+      Great is Thy faithfulness, O Lord
+    - Tình yêu thương Chúa bền vững mãi không phai tàn.<br/>
+      Lòng thương xót Chúa rộng lớn chẳng đổi thay.<br/>
+      Tình yêu Chúa ban cho mỗi ngày,<br/>
+      mới với tôi mỗi ngày.<br/>
+      Lớn thay, sâu thay, rộng thay<br/>
+      tình yêu Chúa ban cho dư dật luôn.
+
+  - label: My Peace
+    pretext: Sự bình an
+    header: Lyrics / Lời hát
+    text:
+    - My peace I give unto you<br/>
+      It's a peace that the world cannot give<br/>
+      It's a peace that the world cannot understand<br/>
+      <small class='text-fade'>Chorus</small><br/>
+      Peace to know, peace to live,<br/>
+      My peace I give unto you.
+    - Sự bình an, mà Cha ban cho tâm hồn.<br/>
+      Là bình an mà trần gian luôn mong chờ.<br/>
+      Lòng vui tươi, lòng an ninh con tìm đâu trong đời.<br/>
+      <small class='text-fade'>Điệp khúc</small><br/>
+      Sống vui mừng sống an hòa,<br/>
+      sự bình an Cha ban cho lòng con.
+    - My love I give unto you<br/>
+      It's a love that the world cannot give<br/>
+      It's a love that the world cannot understand<br/>
+      <small class='text-fade'>Chorus</small><br/>
+      Love to know, Love to live,<br/>
+      My love I give unto you.
+    - Nầy tình yêu, mà Cha ban cho nhân loại.<br/>
+      Là tình yêu mà trần gian luôn mong chờ.<br/>
+      Tình yêu thương, lòng an khương,<br/>
+      con tìm đâu trong đời.<br/>
+      <small class='text-fade'>Điệp khúc</small><br/>
+      Mến thương người, kính yêu Trời.<br/>
+      Là tình yêu Cha ban cho trần gian.
+
+  - label: As the Deer
+    pretext: Hồn linh con
+    header: Lyrics / Lời hát
+    text:
+    - As the deer panteth for the water<br/>
+      So my soul longeth after You<br/>
+      You alone are my heart's desire<br/>
+      And I long to worship You
+    - <small class='text-fade'>Chorus</small><br/>
+      You alone are my strength, my shield<br/>
+      To You alone may my spirit yield<br/>
+      You alone are my heart's desire<br/>
+      And I long to worship You
+    - Hồn linh con khát khao Ngài<br/>
+      Như những nai tơ thèm khát<br/>
+      suối nước thanh tịnh kia<br/>
+      Lòng con đây ước ao được bên Chúa luôn<br/>
+      con thờ phượng chỉ riêng mình Ngài
+    - <small class='text-fade'>Điệp khúc</small><br/>
+      Chúa Chí Thánh chở che con, sức con<br/>
+      Và tâm linh con sẽ luôn đầu phục Ngài<br/>
+      Lòng con đây ước ao được bên Chúa luôn<br/>
+      con thờ phượng chỉ riêng mình Ngài.
+
+  - label: In Moments Like These
+    pretext: Vào những giây phút này
+    header: Lyrics / Lời hát
+    text:
+    - In moments like these<br/>
+      I sing out a song<br/>
+      I sing out a love song to Jesus<br/>
+      In moments like these<br/>
+      I lift up my hands<br/>
+      I lift up my hands to the Lord
+    - <small class='text-fade'>Chorus</small><br/>
+      Singing, I love You Lord<br/>
+      Singing, I love You Lord<br/>
+      Singing, I love You Lord<br/>
+      I love You!
+    - Vào những giây phút này,<br/>
+      con cất tiếng ca mừng<br/>
+      Con cất tiếng ca tụng tình thương yêu Chúa<br/>
+      Vào những giây phút này,<br/>
+      con kính mến tôn thờ<br/>
+      Con kính mến tôn thờ Cha toàn năng<br/>
+    - <small class='text-fade'>Điệp khúc</small><br/>
+      Lòng xin hiến dâng lên Ngài,<br/>
+      vì con kính yêu Vua trời<br/>
+      Lòng con yêu mến Chúa Cha, kính yêu Ngài!
+
+  - label: Tình Chúa mãi trong tôi
+    header: Lời hát
+    text:
+    - Nguyện lòng không quên ơn Chúa yêu diệu kỳ.<br/>
+      Và tâm linh con hân hoan cất tiếng hát.<br/>
+      Ở trên đỉnh của hy vọng,<br/>
+       lòng tôi xiết bao vui mừng.<br/>
+      Xin dâng lòng đây mến yêu Ngài hoài.
+    - Nguyện lòng tôi là nơi Chúa Cha ngự trị.<br/>
+      Và ngợi khen Jesus tôi cất tiếng hát.<br/>
+      Lòng nghe tiếng Chúa kêu về<br/>
+      vùng đất của sự thánh thiện.<br/>
+      Xin dâng lòng con kính tôn thờ Ngài.
+    - <small class='text-fade'>Điệp khúc</small><br/>
+      Mọi ân điển Chúa đổ xuống cho đời tôi.<br/>
+      Trào dâng nói sao không nên lời.<br/>
+      Lòng vui sướng quá Chúa ôi!<br/>
+      Quyết chí bước đi mãi với Ngài.<br/>
+      Dâng trọn đời trong cánh tay của Ngài.
+
   - label: Psalm 23
     pretext: Thi-thiên 23
     name: Debbie Lê Thiên-Thanh
@@ -33,6 +165,7 @@
       Chúa xức dầu cho đầu tôi, Chén tôi đầy tràn."
     - "Quả thật, trọn đời tôi Phước-hạnh và sự thương-xót sẽ theo tôi;<br/>
       Tôi sẽ ở trong nhà Đức Giê-hô-va Cho đến lâu dài."
+
   - name: Jadon Phạm Vương-Quyền
     header: English
     text:
@@ -49,8 +182,7 @@
       thou anointest my head with oil; my cup runneth over."
     - "Surely goodness and mercy shall follow me all the days of my life:<br/>
       and I will dwell in the house of the LORD for ever."
-- label: homily
-  items:
+
   - label: My Shepherd
     pretext: Đấng Chăn giữ tôi
     name: Mục-sư Phạm Đức Khôi Nguyên
@@ -59,6 +191,23 @@
   items:
   - label: Special Message
     pretext: Mục-sư Phạm Đức Long
+
+  - label: Unworried
+    pretext: Có hề chi
+    header: Lời hát
+    text:
+    - Lòng người đã mong, mọi mắt sẽ thấy<br/>
+      Jêsus trở lại, tiếng kèn loa vang<br/>
+      Tiếng kèn thinh không (2x)
+    - Đàn con ngóng trông, mừng vui Chúa đến<br/>
+      Lại đây con, việc Ta đã xong! (2x)
+    - <small class='text-fade'>Điệp khúc</small><br/>
+      Và ta sẽ đi, rồi ta sẽ đến<br/>
+      Ngàn năm qua, ngàn năm sẽ đến<br/>
+      Có hề chi, có hề chi! (2x)
+    - <small class='text-fade'>Kết thúc</small><br/>
+      Ye-shu-a, Ye-shu-a, Ye-shu-a
+
   - label: Sharing Memories
     pretext: Lời tưởng nhớ của quý thân hữu
 
@@ -66,3 +215,11 @@
   items:
   - label: Closing Remarks & Prayer
     pretext: Cầu nguyện kết thúc
+  - label: Special Music
+    pretext: Nhạc đặc biệt
+    name: Gia đình Lê Ngọc Chính
+  - label: Benediction
+    pretext: Chúc phước
+  - label: Group Pictures
+    pretext: Chụp hình chung
+

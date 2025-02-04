@@ -1,0 +1,13 @@
+---
+set: memorial
+---
+
+{% assign HEADER = site.data.main[page.set] %}
+{% assign INFO = site.data[page.set] %}
+
+<h2 class='heading accent'>{{ HEADER.vn-name }}</h2>
+<h1>{{ HEADER.name }}</h1>
+
+{% include program-outline.html info=INFO %}
+
+{% include button.html href='/memorial' class='spacer-4' back=1 label='Back' %}

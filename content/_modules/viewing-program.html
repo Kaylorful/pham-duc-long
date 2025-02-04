@@ -1,0 +1,15 @@
+---
+set: viewing
+---
+
+{% assign HEADING = site.data.main[page.set] %}
+{% assign INFO = site.data[page.set] %}
+
+<h2 class='heading accent'>{{ HEADING.vn-name }}</h2>
+<h1>{{ HEADING.name }}</h1>
+
+{% include program-outline.html info=INFO %}
+
+{% include button.html href='/committal' class='spacer-4' label='Burial Service' %}
+
+{% include button.html href='/viewing' class='spacer-4' back=1 label='Back' %}

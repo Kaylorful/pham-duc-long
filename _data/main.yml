@@ -82,13 +82,9 @@ main_menu:
     href: /memorial
   - label: "gia đình &middot; family"
     href: /modules/families
-  - label: "sổ lưu bút &middot; guestbook"
-
-wake_menu:
-  - label: "thứ năm &middot; thursday"
-    href: /modules/wake-6th
-  - label: "thứ sáu &middot; friday"
-    href: /modules/wake-7th
+  - label: "lời tưởng nhớ &middot; tribute"
+    href: /tribute
+    emphasized: true
 
 visitation_menu:
   - label: "thông tin &middot; information"
@@ -100,6 +96,7 @@ viewing_menu:
   - label: "thông tin &middot; information"
     href: /modules/viewing-info
   - label: "chương trình &middot; program"
+    href: /modules/viewing-program
 
 committal_menu:
   - label: "thông tin &middot; information"
@@ -111,6 +108,7 @@ memorial_menu:
   - label: "thông tin &middot; information"
     href: /modules/memorial-info
   - label: "chương trình &middot; program"
+    href: /modules/memorial-program
 
 admin_menu:
   - label: timeline

@@ -1,0 +1,28 @@
+- label: 8:30 a.m.
+  items:
+  - label: Eulogies
+    pretext: Những lời chúc từ
+
+- label: 9:15 a.m.
+  items:
+  - label: Final Viewing
+    pretext: Viếng thăm lần cuối
+
+- label: 10:15 a.m.
+  items:
+  - label: Prayer
+    pretext: Cầu nguyện
+  - label: Closing of the Casket
+    pretext: Đóng nắp quan tài
+  - label: Word of Thanks
+    pretext: Lời cảm ơn
+
+- label: 10:45 a.m.
+  items:
+  - label: Leave for Burial Service
+    pretext: Đưa tang đễn lễ hạ huyệt
+    text:
+    - Gate of Heaven Catholic Cemetery<br/>
+      Garden of Ascension
+    - 22555 Cristo Rey Dr,<br/>
+      Los Altos, CA 94024

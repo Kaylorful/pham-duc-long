@@ -1,0 +1,35 @@
+- label: 11:30 a.m.
+  items:
+  - label: Gathering
+    pretext: Tụ họp
+
+- label: 12:00 p.m.
+  items:
+  - label: Worship
+    pretext: Thờ phượng
+
+- label: 12:15 p.m.
+  items:
+  - label: Generational Bridge
+    pretext: Bắt cầu qua những thế hệ
+    name: Phạm Đức Nam Minh
+
+- label: 12:30 p.m.
+  items:
+  - label: Shaing Memories
+    pretext: Lời tưởng nhớ của quý thân hữu
+
+- label: 2:00 p.m.
+  items:
+  - label: Group Picture
+    pretext: Chụp hình lưu niệm
+
+- label: 2:15 p.m.
+  items:
+  - label: Closing Prayer
+    pretext: Cầu nguyện kết lễ
+
+- label: 2:20 p.m.
+  items:
+  - label: Lunch & Fellowship
+    pretext: Ngọ tiệc thông công
