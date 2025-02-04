@@ -3,7 +3,7 @@
 
 const CACHE = "pwabuilder-offline-page";
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.3.0/workbox-sw.js');
 
 const offlineFallbackPage = "offline.html";
 
@@ -37,7 +37,7 @@ self.addEventListener('fetch', (event) => {
     || event.request.method !== 'GET'
     || url.hostname.endsWith('run.app')
     || url.protocol === 'chrome-extension:'
-    || url.pathname.match(/^\/(admin|guests)/)
+    || url.pathname.match(/^\/(admin|tribute)/)
   ) return;
 
   event.respondWith((async () => {
