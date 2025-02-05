@@ -34,39 +34,39 @@
 
 <h3 class='heading accent'>khăn tang</h3>
 <p class='squeeze-1'>
-{% if page.name == 'wake-6th.html' -%}
+{% if page.name == 'visitation-info.html' -%}
   Các thành viên gia đình và khách mời muốn đeo khăn tang vui lòng đến trước 3 giờ chiều.
   Nếu bạn đến sau 3 giờ chiều, khăn tang có sẵn trên bàn, bạn có thể lấy một chiếc nếu muốn.
-  Đối với những ai tham dự lễ viếng và/hoặc lễ an táng vào thứ Sáu,
+  Đối với những ai tham dự <a href='/viewing'>Lễ viếng</a> và/hoặc <a href='/committal'>Lễ hạ huyệt</a> vào thứ Sáu,
   chúng tôi xin phép đề nghị các bạn để lại khăn tang ở đây.
 {% else -%}
-  Các thành viên gia đình và khách mời đã gửi khăn tang lại cho chúng tôi vào thứ Năm có thể nhận lại khăn tang tại bàn được chỉ định nếu quý vị muốn đội.
-  Những chiếc khăn tang này sẽ được đặt lên quan tài trong lễ an táng vào buổi trưa hôm nay.
+  Các thành viên gia đình và khách mời đã gửi khăn tang lại cho chúng tôi vào thứ Năm có thể nhận lại khăn tang tại bàn được chỉ định nếu quý vị muốn đeo.
+  Những chiếc khăn tang này sẽ được đặt lên quan tài trong <a href='/committal'>Lễ hạ huyệt</a> vào buổi trưa hôm nay.
 {% endif -%}
 </p>
 <h3 class='heading accent'>mourning headband</h3>
 <p class='squeeze-1'>
-{% if page.name == 'wake-6th.html' -%}
+{% if page.name == 'visitation-info.html' -%}
   Family members and guests who wish to wear mourning headband are kindly requested to arrive by 3:00 PM.
   If you arrive after 3:00 PM the cloth will be available on a table, you may pick one up if you wish.
-  For those attending the final viewing and/or committal service on Friday,
+  For those attending the <a href='/viewing'>Final Viewing</a> and/or <a href='/committal'>Burrial Service</a> on Friday,
   we respectfully request that mourning headbands be left with us.
 {% else -%}
   Family members and guests who left mourning headbands with us on Thursday may retrieve them from the designated table if they wish to wear them.
-  These headbands will be placed on the casket during the committal service at noon today.
+  These headbands will be placed on the casket during the <a href='/committal'>Burrial Service</a> at noon today.
 {% endif -%}
 </p>
 
-{% if page.name == 'wake-7th.html' -%}
+{% if page.name == 'viewing-info.html' -%}
 {% assign COMMITTAL = site.data.main.committal %}
-<h3 class='heading accent'>thời gian lái xe đến tang lễ</h3>
+<h3 class='heading accent'>thời gian lái xe đến lễ hạ huyệt</h3>
 <p class='squeeze-1'>
   Xin vui lòng dành 20 đến 30 phút cho việc <a target='_blank' href='https://maps.app.goo.gl/bRex6XCKXSDz3uft9'>di chuyển</a>
   giữa <a target='_blank' href='{{ INFO.href }}'>{{ INFO.venue }}</a>
   và <a target='_blank' href='{{ COMMITTAL.href }}'>{{ COMMITTAL.venue }}</a>.
   Sự hiện diện đúng giờ của quý vị rất được trân trọng.
 </p>
-<h3 class='heading accent'>travel time to committal service</h3>
+<h3 class='heading accent'>travel time to burial service</h3>
 <p class='squeeze-1'>
   Kindly allow 20 to 30 minutes for <a target='_blank' href='https://maps.app.goo.gl/bRex6XCKXSDz3uft9'>travel</a>
   between <a target='_blank' href='{{ INFO.href }}'>{{ INFO.venue }}</a>
