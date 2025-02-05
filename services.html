@@ -1,0 +1,14 @@
+---
+menu: services_menu
+---
+{% assign MAIN = site.data.main %}
+{% assign MENU = MAIN[page.menu] %}
+<main>
+  <div class='border'>
+    <small class='heading accent'>những buổi lễ</small>
+    <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
+
+    {% include menu-outline.html info=MENU %}
+    {% include footer.html href='/' %}
+  </div>
+</main>

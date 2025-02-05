@@ -354,6 +354,7 @@ footer {
   font-family: var(--font-special);
   display: flex;
   align-items: center;
+  justify-content: center;
   color: var(--color-accent-fade);
 }
 footer a {
@@ -452,9 +453,9 @@ h1.super {
 }
 
 .border {
-  background:transparent;
+  background: transparent;
   max-width: 95svw;
-  max-height: 95svh;
+  /* max-height: 95svh; */
   padding: 2rem;
 
   display: flex;
@@ -464,12 +465,14 @@ h1.super {
   text-align: center;
   position: relative;
 
+/*
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
   border-bottom-right-radius: 225px 15px;
   border-bottom-left-radius: 15px 255px;
 
-  /* border: solid 3px var(--color-accent); */
+  border: solid 3px var(--color-accent);
+*/
 }
 
 .border::before {
@@ -479,21 +482,23 @@ h1.super {
   width: 100%;
   height: 100%;
   max-height: 95svh;
-  max-width: 95svw;
+  /* max-width: 95svw; */
   top: 0;
   left: 0;
+/*
   border-bottom-left-radius: 205px 7px;
   border-bottom-right-radius: 12px 90px;
   border-top-right-radius: 255px 18px;
   border-top-left-radius: 10px 155px;
-  /* border: solid 3px var(--color-accent-fade); */
+  border: solid 3px var(--color-accent-fade);
+*/
   z-index: -1;
 }
 
 .menu-item {
   display: block;
   font-size: 2em;
-  padding: 0.5em;
+  padding: 0.4em;
   border: solid 2px transparent;
 }
 
@@ -548,7 +553,7 @@ details[open] p {
   .border {
     padding: 0;
     width: 95svw;
-    height: 95svh;
+    /*height: 95svh;*/
   }
   br.soft {
     display: none;

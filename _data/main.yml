@@ -72,6 +72,18 @@ memorial:
   qrcode: /assets/qr/mcc.svg
 
 main_menu:
+  - label: "services"
+    alt: "các buổi lễ"
+    href: /services
+    emphasized: true
+  - label: "tribute"
+    alt: "lời tưởng nhớ"
+    href: /tribute
+  - label: "family"
+    alt: "gia đình"
+    href: /modules/families
+
+services_menu:
   - label: "visitation service"
     alt: "thăm viếng"
     href: /visitation
@@ -85,13 +97,6 @@ main_menu:
   - label: "memorial service"
     alt: "lễ tưởng nhớ"
     href: /memorial
-  - label: "family"
-    alt: "gia đình"
-    href: /modules/families
-  - label: "tribute"
-    alt: "lời tưởng nhớ"
-    href: /tribute
-    emphasized: true
 
 visitation_menu:
   - label: "information"
