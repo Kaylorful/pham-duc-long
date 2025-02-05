@@ -216,7 +216,7 @@ small.heading {
   font-size: 1.2em;
 }
 .emphasize {
-  font-size: 2em !important;
+  font-size: 1.2em !important;
 }
 
 body::-webkit-scrollbar {
@@ -492,7 +492,7 @@ h1.super {
 
 .menu-item {
   display: block;
-  font-size: 1.8em;
+  font-size: 2em;
   padding: 0.5em;
   border: solid 2px transparent;
 }
@@ -508,6 +508,14 @@ h1.super {
   border-bottom-right-radius: 225px 15px;
   border-top-left-radius: 255px 15px;
   border-top-right-radius: 15px 225px;
+}
+
+.menu-item .alternate {
+  font-family: var(--font-heading);
+  font-size: 0.6em;
+  display: block;
+  line-height: 1;
+  color: var(--color-accent-fade);
 }
 
 details.outline summary {

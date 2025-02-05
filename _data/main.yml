@@ -72,45 +72,61 @@ memorial:
   qrcode: /assets/qr/mcc.svg
 
 main_menu:
-  - label: "thăm viếng &middot; visitation service"
+  - label: "visitation service"
+    alt: "thăm viếng"
     href: /visitation
-  - label: "thăm lần cuối &middot; final viewing"
+  - label: "final viewing"
+    alt: "thăm lần cuối"
     href: /viewing
-  - label: "lễ hạ huyệt &middot; burial service"
+  - label: "burial service"
+    alt: "lễ hạ huyệt"
     href: /committal
     emphasized: true
-  - label: "lễ tưởng nhớ &middot; memorial service"
+  - label: "memorial service"
+    alt: "lễ tưởng nhớ"
     href: /memorial
-  - label: "gia đình &middot; family"
+  - label: "family"
+    alt: "gia đình"
     href: /modules/families
-  - label: "lời tưởng nhớ &middot; tribute"
+  - label: "tribute"
+    alt: "lời tưởng nhớ"
     href: /tribute
     emphasized: true
 
 visitation_menu:
-  - label: "thông tin &middot; information"
+  - label: "information"
+    alt: "thông tin"
     href: /modules/visitation-info
-  - label: "chương trình &middot; program"
+  - label: "program"
+    alt: "chương trình"
     href: /modules/visitation-program
 
 viewing_menu:
-  - label: "thông tin &middot; information"
+  - label: "information"
+    alt: "thông tin"
     href: /modules/viewing-info
-  - label: "chương trình &middot; program"
+  - label: "program"
+    alt: "chương trình"
     href: /modules/viewing-program
 
 committal_menu:
-  - label: "thông tin &middot; information"
+  - label: "information"
+    alt: "thông tin"
     href: /modules/committal-info
-  - label: "chương trình &middot; program"
+  - label: "program"
+    alt: "chương trình"
     href: /modules/committal-program
 
 memorial_menu:
-  - label: "thông tin &middot; information"
+  - label: "information"
+    alt: "thông tin"
     href: /modules/memorial-info
-  - label: "chương trình &middot; program"
+  - label: "program"
+    alt: "chương trình"
     href: /modules/memorial-program
 
 admin_menu:
   - label: timeline
+    alt: "thời khóa biểu"
   - label: guests
+    alt: "khách"

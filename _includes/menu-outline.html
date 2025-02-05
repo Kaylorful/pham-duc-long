@@ -1,4 +1,4 @@
-<div class='spacer-2 push-2 name'>
+<div class='spacer-2 push-2'>
   {% for item in include.info -%}
     {% if item.href -%}
       {% if item.emphasized -%}
@@ -6,9 +6,19 @@
       {% else -%}
         {% assign em = '' -%}
       {% endif -%}
-      <a class='menu-item {{em}}' href='{{ item.href }}' title='{{ item.label }}'>{{ item.label }}</a>
+      <a class='menu-item' href='{{ item.href }}' title='{{ item.label }}'>
+        <span class='special {{em}}'>{{ item.label }}</span>
+        {% if item.alt -%}
+          <span class='alternate'>{{ item.alt }}</span>
+        {% endif -%}
+      </a>
     {% else -%}
-      <span class='menu-item'>{{ item.label }}</span>
+      <span class='menu-item'>
+        <span class='special {{em}}'>{{ item.label }}</span>
+        {% if item.alt -%}
+          <span class='alternate'>{{ item.alt }}</span>
+        {% endif -%}
+      </span>
     {% endif -%}
   {% endfor -%}
 </div>
