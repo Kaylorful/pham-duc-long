@@ -564,6 +564,11 @@ details[open] p {
   animation: animateDown 0.2s linear forwards;
 }
 
+.tribute-message {
+  max-width: 400px;
+  line-height: 1.4;
+}
+
 @keyframes animateDown {
   0% {
     opacity: 0;

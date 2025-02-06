@@ -42,7 +42,7 @@ function draw(data) {
     el.innerHTML += `
       <div class='tribute' id='${id}'>
         <hr class='push-1' />
-        <h3 class='heading accent'>${name}</h3>
+        <h3 class='name accent'>${name}</h3>
         <small class='text-fade squeeze-2 push-1'>${date}</small>
         <div class='tribute-message'>${message}</div>
       </div>
