@@ -1,17 +1,23 @@
 ---
+layout: default
 ---
 {% assign MAIN = site.data.main %}
-<main>
-  <div class='border'>
-    <small class='heading accent'>mục-sư</small>
-    <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
+<section class='center-box-container spacer-2 visible'>
+  <img src='{{ MAIN.logo }}' width=300 alt='{{ MAIN.hero }}' title='{{ MAIN.hero }}' style='max-width: 80svw' />
 
-    <p>
-      Trang web này sẽ sớm có phần tưởng niệm Mục sư Long, nơi quý vị được mời để lại những lời tưởng nhớ.
-    </p>
-    <p>
-      A tribute page for Pastor Long will be available on this site shortly, where you may share your condolences and remembrances.
-    </p>
-    {% include footer.html href='/' %}
+  <small class='heading accent spacer-2 push-2'>lời tri ân</small>
+  <h1 class='squeeze-1 pull-1'>tribute</h1>
+
+  {% include button.html href='/tribute-add-vn' class='spacer-4' label='Ghi lời tri ân' %}
+
+  <div id='tribute' class='spacer-1' hidden>
+    <div id='list'></div>
   </div>
-</main>
+
+  {% include button.html href='/tribute-add' class='spacer-4' label='Add a Tribute' %}
+
+  <div class='spacer-2'></div>
+  {% include footer.html href='/' %}
+</section>
+
+<script src='/assets/js/tribute.js'></script>

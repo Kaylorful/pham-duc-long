@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<section id='tribute-add' class='center-box-container visible'>
+  {% include logo.html %}
+
+  <h1 class='heading accent'>Ghi lời tri ân</h1>
+
+  {% include input.html class='spacer-1' name='name' label='Họ và tên' enabled=1 %}
+  {% include input.html class='spacer-2' name='phone' type='tel' label='Điện thoại' enabled=1 %}
+  {% include input.html class='message-box spacer-2' name='message' label='Đôi lời tri ân' enabled=1 textarea=1 %}
+
+  {% include button.html label='Add' dataId='tribute-add' onclick='add(this)' class='spacer-4' %}
+</section>
+
+<script src='/assets/js/tribute-add.js'></script>

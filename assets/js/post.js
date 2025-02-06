@@ -1,4 +1,4 @@
-const ENDPOINT = 'https://rsvp-sf5ynstwha-uc.a.run.app';
+const ENDPOINT = 'https://phamduclong-sf5ynstwha-uc.a.run.app';
 
 const ID = (n) => n.replace(/[^0-9]/g, '');
 

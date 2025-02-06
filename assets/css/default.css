@@ -109,7 +109,7 @@ button.line-drawn {
   transition: opacity 500ms;
 }
 
-input.line-drawn {
+textarea.line-drawn, input.line-drawn {
   padding: 1rem .75rem;
   font-family: var(--font-sans);
 }
@@ -302,6 +302,21 @@ hr {
   border-color: var(--color-accent);
 }
 
+.top-0,
+.bottom-0,
+.spacer-1,
+.spacer-2,
+.spacer-4,
+.push-1,
+.push-2,
+.push-4,
+.squeeze-1,
+.squeeze-2,
+.squeeze-4,
+.pull-1,
+.pull-2,
+.pull-4 { display: block; }
+
 .top-0 { margin-top: 0; }
 .bottom-0 { margin-bottom: 0; }
 .spacer-1 { margin-top: 1em; }
@@ -372,6 +387,9 @@ footer span:last-child {
   text-align: left;
 }
 
+textarea:focus ~ .floating-label,
+textarea:disabled ~ .floating-label,
+textarea:not(:focus):valid ~ .floating-label,
 input:focus ~ .floating-label,
 input:disabled ~ .floating-label,
 input:not(:focus):valid ~ .floating-label {
@@ -381,6 +399,9 @@ input:not(:focus):valid ~ .floating-label {
   opacity: 1;
 }
 
+textarea:focus ~ .floating-label-bottom,
+textarea:disabled ~ .floating-label-bottom,
+textarea:not(:focus):valid ~ .floating-label-bottom,
 input:focus ~ .floating-label-bottom,
 input:disabled ~ .floating-label-bottom,
 input:not(:focus):valid ~ .floating-label-bottom {
@@ -388,6 +409,7 @@ input:not(:focus):valid ~ .floating-label-bottom {
 }
 
 button:disabled,
+textarea:disabled,
 input:disabled {
   background-color: var(--color-light);
 }
@@ -430,8 +452,12 @@ section:not(.visible) button {
   width: 90%;
   max-width: 400px;
 }
-.message-box input {
+.message-box input, .message-box textarea {
   width: 100%;
+}
+
+.message-box textarea {
+  min-height: 300px;
 }
 
 span.large {

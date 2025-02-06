@@ -77,7 +77,7 @@ main_menu:
     href: /services
     emphasized: true
   - label: "tribute"
-    alt: "lời tưởng nhớ"
+    alt: "lời tri ân"
     href: /tribute
   - label: "family"
     alt: "gia đình"

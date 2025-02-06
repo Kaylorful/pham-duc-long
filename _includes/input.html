@@ -1,5 +1,15 @@
 
 <div class='input-group {{ include.class }}'>
+  {% if include.textarea %}
+  <textarea required
+    {% unless include.enabled -%}
+    disabled
+    {% endunless -%}
+    name='{{ include.name }}'
+    type='{{ include.type | default: "text" }}'
+    class='line-drawn'
+  ></textarea>
+  {% else -%}
   <input required
     {% unless include.enabled -%}
     disabled
@@ -9,6 +19,7 @@
     pattern='{{ include.pattern | default: ".*" }}'
     class='line-drawn'
   />
+  {%- endif %}
   <span class='floating-label'>{{ include.label }}</span>
   {% if include.bottom -%}
     <span class='floating-label-bottom'>{{ include.bottom }}</span>
