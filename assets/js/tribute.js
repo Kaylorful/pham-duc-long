@@ -20,7 +20,7 @@ function list(info) {
   const arr = [];
 
   for (const {id,created,message,name,removed} of data) {
-    if (removed) continue;
+    if (removed || !name || !message) continue;
     arr.push({
       id,
       name,
